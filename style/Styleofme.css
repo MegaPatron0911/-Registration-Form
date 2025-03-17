@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: auto;
+    background: -webkit-linear-gradient(90deg, #43de57,#418280,#38a12c);
+}
+.formulario{
+    background-color: #075132;
+    width: 450px;
+    border-radius: 10px;
+    padding: 30px;
+    margin: auto;
+    font-family: system-ui;
+    box-shadow: 8px 14px 37px #000;
+}
+.tittle > h2{
+    text-align: center;
+}
+.formulario-ud{
+    padding: 10px;
+    margin: auto;
+}
+.formulario select > option{
+    color: gray;
+}
+.formulario h4{
+    margin-bottom: 15px;
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: white;
+    cursor:default;
+    transition: color 0.5s;
+}
+.formulario-ud .date{
+    margin-bottom: 15px;
+    padding: 8px;
+    background: #122b16;
+    border-radius: 10px;
+    color: gray;
+    outline: none;
+    border: 2px solid green;
+    width: 100%;
+    font-size: 13px;
+}
+.formulario-ud select{
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 10px;
+    color: gray;
+    border: 2px solid green;
+    outline: none;
+    width: 100%;
+    background: #122b16;
+}
+
+.formulario-vh{
+    padding: 10px;
+    margin: auto;
+}
+.formulario-vh select{
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 10px;
+    color: gray;
+    border: 2px solid green;
+    outline: none;
+    width: 100%;
+    background: #122b16;
+}
+.formulario-vh .vehicle-date{
+    margin-bottom: 15px;
+    padding: 8px;
+    background: #122b16;
+    border-radius: 10px;
+    color: gray;
+    outline: none;
+    border: 2px solid green;
+    width: 100%;
+    font-size: 13px;
+}
+.formulario button{
+    background: #122b16;
+    border: 2px solid green;
+    border-radius: 20px;
+    color: gray;
+    font-size: 15px;
+    margin-left: 25%;
+    width: 50%;
+    padding: 10px;
+    transition: background-color 0.5s;
+}
+.formulario button:hover{
+    background-color: green;
+}
+.formulario h4:hover{
+    color: #43de57;
+}
